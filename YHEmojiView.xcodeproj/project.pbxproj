@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB6E9D0119260C7B002CA59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0019260C7B002CA59E /* Foundation.framework */; };
+		DB6E9D0319260C7B002CA59E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0219260C7B002CA59E /* CoreGraphics.framework */; };
+		DB6E9D0519260C7B002CA59E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0419260C7B002CA59E /* UIKit.framework */; };
+		DB6E9D0B19260C7B002CA59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6E9D0919260C7B002CA59E /* InfoPlist.strings */; };
+		DB6E9D0D19260C7B002CA59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D0C19260C7B002CA59E /* main.m */; };
+		DB6E9D1119260C7B002CA59E /* YHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D1019260C7B002CA59E /* YHAppDelegate.m */; };
+		DB6E9D1319260C7B002CA59E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6E9D1219260C7B002CA59E /* Images.xcassets */; };
+		DB6E9D1A19260C7B002CA59E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D1919260C7B002CA59E /* XCTest.framework */; };
+		DB6E9D1B19260C7B002CA59E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0019260C7B002CA59E /* Foundation.framework */; };
+		DB6E9D1C19260C7B002CA59E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0419260C7B002CA59E /* UIKit.framework */; };
+		DB6E9D2419260C7B002CA59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6E9D2219260C7B002CA59E /* InfoPlist.strings */; };
+		DB6E9D2619260C7B002CA59E /* YHEmojiViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D2519260C7B002CA59E /* YHEmojiViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB6E9D1D19260C7B002CA59E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB6E9CF519260C7B002CA59E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB6E9CFC19260C7B002CA59E;
+			remoteInfo = YHEmojiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB6E9CFD19260C7B002CA59E /* YHEmojiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHEmojiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6E9D0019260C7B002CA59E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB6E9D0219260C7B002CA59E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB6E9D0419260C7B002CA59E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB6E9D0819260C7B002CA59E /* YHEmojiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YHEmojiView-Info.plist"; sourceTree = "<group>"; };
+		DB6E9D0A19260C7B002CA59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6E9D0C19260C7B002CA59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB6E9D0E19260C7B002CA59E /* YHEmojiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHEmojiView-Prefix.pch"; sourceTree = "<group>"; };
+		DB6E9D0F19260C7B002CA59E /* YHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAppDelegate.h; sourceTree = "<group>"; };
+		DB6E9D1019260C7B002CA59E /* YHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHAppDelegate.m; sourceTree = "<group>"; };
+		DB6E9D1219260C7B002CA59E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB6E9D1819260C7B002CA59E /* YHEmojiViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHEmojiViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6E9D1919260C7B002CA59E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB6E9D2119260C7B002CA59E /* YHEmojiViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YHEmojiViewTests-Info.plist"; sourceTree = "<group>"; };
+		DB6E9D2319260C7B002CA59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB6E9D2519260C7B002CA59E /* YHEmojiViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHEmojiViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6E9CFA19260C7B002CA59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D0319260C7B002CA59E /* CoreGraphics.framework in Frameworks */,
+				DB6E9D0519260C7B002CA59E /* UIKit.framework in Frameworks */,
+				DB6E9D0119260C7B002CA59E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6E9D1519260C7B002CA59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D1A19260C7B002CA59E /* XCTest.framework in Frameworks */,
+				DB6E9D1C19260C7B002CA59E /* UIKit.framework in Frameworks */,
+				DB6E9D1B19260C7B002CA59E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB6E9CF419260C7B002CA59E = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D0619260C7B002CA59E /* YHEmojiView */,
+				DB6E9D1F19260C7B002CA59E /* YHEmojiViewTests */,
+				DB6E9CFF19260C7B002CA59E /* Frameworks */,
+				DB6E9CFE19260C7B002CA59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6E9CFE19260C7B002CA59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9CFD19260C7B002CA59E /* YHEmojiView.app */,
+				DB6E9D1819260C7B002CA59E /* YHEmojiViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6E9CFF19260C7B002CA59E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D0019260C7B002CA59E /* Foundation.framework */,
+				DB6E9D0219260C7B002CA59E /* CoreGraphics.framework */,
+				DB6E9D0419260C7B002CA59E /* UIKit.framework */,
+				DB6E9D1919260C7B002CA59E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6E9D0619260C7B002CA59E /* YHEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D0F19260C7B002CA59E /* YHAppDelegate.h */,
+				DB6E9D1019260C7B002CA59E /* YHAppDelegate.m */,
+				DB6E9D1219260C7B002CA59E /* Images.xcassets */,
+				DB6E9D0719260C7B002CA59E /* Supporting Files */,
+			);
+			path = YHEmojiView;
+			sourceTree = "<group>";
+		};
+		DB6E9D0719260C7B002CA59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D0819260C7B002CA59E /* YHEmojiView-Info.plist */,
+				DB6E9D0919260C7B002CA59E /* InfoPlist.strings */,
+				DB6E9D0C19260C7B002CA59E /* main.m */,
+				DB6E9D0E19260C7B002CA59E /* YHEmojiView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6E9D1F19260C7B002CA59E /* YHEmojiViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D2519260C7B002CA59E /* YHEmojiViewTests.m */,
+				DB6E9D2019260C7B002CA59E /* Supporting Files */,
+			);
+			path = YHEmojiViewTests;
+			sourceTree = "<group>";
+		};
+		DB6E9D2019260C7B002CA59E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D2119260C7B002CA59E /* YHEmojiViewTests-Info.plist */,
+				DB6E9D2219260C7B002CA59E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6E9CFC19260C7B002CA59E /* YHEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6E9D2919260C7B002CA59E /* Build configuration list for PBXNativeTarget "YHEmojiView" */;
+			buildPhases = (
+				DB6E9CF919260C7B002CA59E /* Sources */,
+				DB6E9CFA19260C7B002CA59E /* Frameworks */,
+				DB6E9CFB19260C7B002CA59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHEmojiView;
+			productName = YHEmojiView;
+			productReference = DB6E9CFD19260C7B002CA59E /* YHEmojiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB6E9D1719260C7B002CA59E /* YHEmojiViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6E9D2C19260C7B002CA59E /* Build configuration list for PBXNativeTarget "YHEmojiViewTests" */;
+			buildPhases = (
+				DB6E9D1419260C7B002CA59E /* Sources */,
+				DB6E9D1519260C7B002CA59E /* Frameworks */,
+				DB6E9D1619260C7B002CA59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB6E9D1E19260C7B002CA59E /* PBXTargetDependency */,
+			);
+			name = YHEmojiViewTests;
+			productName = YHEmojiViewTests;
+			productReference = DB6E9D1819260C7B002CA59E /* YHEmojiViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6E9CF519260C7B002CA59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "**";
+				TargetAttributes = {
+					DB6E9D1719260C7B002CA59E = {
+						TestTargetID = DB6E9CFC19260C7B002CA59E;
+					};
+				};
+			};
+			buildConfigurationList = DB6E9CF819260C7B002CA59E /* Build configuration list for PBXProject "YHEmojiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB6E9CF419260C7B002CA59E;
+			productRefGroup = DB6E9CFE19260C7B002CA59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6E9CFC19260C7B002CA59E /* YHEmojiView */,
+				DB6E9D1719260C7B002CA59E /* YHEmojiViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6E9CFB19260C7B002CA59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D0B19260C7B002CA59E /* InfoPlist.strings in Resources */,
+				DB6E9D1319260C7B002CA59E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6E9D1619260C7B002CA59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D2419260C7B002CA59E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6E9CF919260C7B002CA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D0D19260C7B002CA59E /* main.m in Sources */,
+				DB6E9D1119260C7B002CA59E /* YHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6E9D1419260C7B002CA59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6E9D2619260C7B002CA59E /* YHEmojiViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB6E9D1E19260C7B002CA59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB6E9CFC19260C7B002CA59E /* YHEmojiView */;
+			targetProxy = DB6E9D1D19260C7B002CA59E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB6E9D0919260C7B002CA59E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6E9D0A19260C7B002CA59E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB6E9D2219260C7B002CA59E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6E9D2319260C7B002CA59E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6E9D2719260C7B002CA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB6E9D2819260C7B002CA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6E9D2A19260C7B002CA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHEmojiView/YHEmojiView-Prefix.pch";
+				INFOPLIST_FILE = "YHEmojiView/YHEmojiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB6E9D2B19260C7B002CA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHEmojiView/YHEmojiView-Prefix.pch";
+				INFOPLIST_FILE = "YHEmojiView/YHEmojiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB6E9D2D19260C7B002CA59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YHEmojiView.app/YHEmojiView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHEmojiView/YHEmojiView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YHEmojiViewTests/YHEmojiViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB6E9D2E19260C7B002CA59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YHEmojiView.app/YHEmojiView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YHEmojiView/YHEmojiView-Prefix.pch";
+				INFOPLIST_FILE = "YHEmojiViewTests/YHEmojiViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6E9CF819260C7B002CA59E /* Build configuration list for PBXProject "YHEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6E9D2719260C7B002CA59E /* Debug */,
+				DB6E9D2819260C7B002CA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6E9D2919260C7B002CA59E /* Build configuration list for PBXNativeTarget "YHEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6E9D2A19260C7B002CA59E /* Debug */,
+				DB6E9D2B19260C7B002CA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB6E9D2C19260C7B002CA59E /* Build configuration list for PBXNativeTarget "YHEmojiViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6E9D2D19260C7B002CA59E /* Debug */,
+				DB6E9D2E19260C7B002CA59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6E9CF519260C7B002CA59E /* Project object */;
+}
