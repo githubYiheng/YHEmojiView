@@ -7,7 +7,7 @@
 //
 
 #import "YHAppDelegate.h"
-
+#import "CCEmojiView.h"
 @implementation YHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,6 +16,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+//    CCEmojiView * test = [[CCEmojiView alloc]initWithFrame:CGRectMake(0, 0, self.window.bounds.size.width, 216)];
+//    [self.window addSubview:test];
+//    
     return YES;
 }
 

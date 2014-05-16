@@ -19,6 +19,14 @@
 		DB6E9D1C19260C7B002CA59E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6E9D0419260C7B002CA59E /* UIKit.framework */; };
 		DB6E9D2419260C7B002CA59E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6E9D2219260C7B002CA59E /* InfoPlist.strings */; };
 		DB6E9D2619260C7B002CA59E /* YHEmojiViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D2519260C7B002CA59E /* YHEmojiViewTests.m */; };
+		DB6E9D3D19261300002CA59E /* CCEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3119261300002CA59E /* CCEmojiView.m */; };
+		DB6E9D3E19261300002CA59E /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3319261300002CA59E /* Emoji.m */; };
+		DB6E9D3F19261300002CA59E /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3519261300002CA59E /* EmojiEmoticons.m */; };
+		DB6E9D4019261300002CA59E /* EmojiMapSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3719261300002CA59E /* EmojiMapSymbols.m */; };
+		DB6E9D4119261300002CA59E /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3919261300002CA59E /* EmojiPictographs.m */; };
+		DB6E9D4219261300002CA59E /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D3B19261300002CA59E /* EmojiTransport.m */; };
+		DB6E9D4319261300002CA59E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB6E9D3C19261300002CA59E /* README.md */; };
+		DB6E9D4719261306002CA59E /* CCEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6E9D4619261306002CA59E /* CCEmojiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,21 @@
 		DB6E9D2119260C7B002CA59E /* YHEmojiViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YHEmojiViewTests-Info.plist"; sourceTree = "<group>"; };
 		DB6E9D2319260C7B002CA59E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB6E9D2519260C7B002CA59E /* YHEmojiViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHEmojiViewTests.m; sourceTree = "<group>"; };
+		DB6E9D3019261300002CA59E /* CCEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEmojiView.h; sourceTree = "<group>"; };
+		DB6E9D3119261300002CA59E /* CCEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEmojiView.m; sourceTree = "<group>"; };
+		DB6E9D3219261300002CA59E /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		DB6E9D3319261300002CA59E /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		DB6E9D3419261300002CA59E /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
+		DB6E9D3519261300002CA59E /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiEmoticons.m; sourceTree = "<group>"; };
+		DB6E9D3619261300002CA59E /* EmojiMapSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMapSymbols.h; sourceTree = "<group>"; };
+		DB6E9D3719261300002CA59E /* EmojiMapSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMapSymbols.m; sourceTree = "<group>"; };
+		DB6E9D3819261300002CA59E /* EmojiPictographs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiPictographs.h; sourceTree = "<group>"; };
+		DB6E9D3919261300002CA59E /* EmojiPictographs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiPictographs.m; sourceTree = "<group>"; };
+		DB6E9D3A19261300002CA59E /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTransport.h; sourceTree = "<group>"; };
+		DB6E9D3B19261300002CA59E /* EmojiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTransport.m; sourceTree = "<group>"; };
+		DB6E9D3C19261300002CA59E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DB6E9D4519261306002CA59E /* CCEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCEmojiView.h; sourceTree = "<group>"; };
+		DB6E9D4619261306002CA59E /* CCEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCEmojiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +100,8 @@
 		DB6E9CF419260C7B002CA59E = {
 			isa = PBXGroup;
 			children = (
+				DB6E9D4419261306002CA59E /* YHEmojiView */,
+				DB6E9D2F19261300002CA59E /* emoji */,
 				DB6E9D0619260C7B002CA59E /* YHEmojiView */,
 				DB6E9D1F19260C7B002CA59E /* YHEmojiViewTests */,
 				DB6E9CFF19260C7B002CA59E /* Frameworks */,
@@ -142,6 +167,37 @@
 				DB6E9D2219260C7B002CA59E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB6E9D2F19261300002CA59E /* emoji */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D3019261300002CA59E /* CCEmojiView.h */,
+				DB6E9D3119261300002CA59E /* CCEmojiView.m */,
+				DB6E9D3219261300002CA59E /* Emoji.h */,
+				DB6E9D3319261300002CA59E /* Emoji.m */,
+				DB6E9D3419261300002CA59E /* EmojiEmoticons.h */,
+				DB6E9D3519261300002CA59E /* EmojiEmoticons.m */,
+				DB6E9D3619261300002CA59E /* EmojiMapSymbols.h */,
+				DB6E9D3719261300002CA59E /* EmojiMapSymbols.m */,
+				DB6E9D3819261300002CA59E /* EmojiPictographs.h */,
+				DB6E9D3919261300002CA59E /* EmojiPictographs.m */,
+				DB6E9D3A19261300002CA59E /* EmojiTransport.h */,
+				DB6E9D3B19261300002CA59E /* EmojiTransport.m */,
+				DB6E9D3C19261300002CA59E /* README.md */,
+			);
+			name = emoji;
+			path = YHEmojiView/emoji;
+			sourceTree = "<group>";
+		};
+		DB6E9D4419261306002CA59E /* YHEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				DB6E9D4519261306002CA59E /* CCEmojiView.h */,
+				DB6E9D4619261306002CA59E /* CCEmojiView.m */,
+			);
+			name = YHEmojiView;
+			path = YHEmojiView/YHEmojiView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6E9D4319261300002CA59E /* README.md in Resources */,
 				DB6E9D0B19260C7B002CA59E /* InfoPlist.strings in Resources */,
 				DB6E9D1319260C7B002CA59E /* Images.xcassets in Resources */,
 			);
@@ -240,8 +297,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6E9D3D19261300002CA59E /* CCEmojiView.m in Sources */,
 				DB6E9D0D19260C7B002CA59E /* main.m in Sources */,
+				DB6E9D3E19261300002CA59E /* Emoji.m in Sources */,
+				DB6E9D4019261300002CA59E /* EmojiMapSymbols.m in Sources */,
+				DB6E9D4219261300002CA59E /* EmojiTransport.m in Sources */,
 				DB6E9D1119260C7B002CA59E /* YHAppDelegate.m in Sources */,
+				DB6E9D4719261306002CA59E /* CCEmojiView.m in Sources */,
+				DB6E9D4119261300002CA59E /* EmojiPictographs.m in Sources */,
+				DB6E9D3F19261300002CA59E /* EmojiEmoticons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +502,7 @@
 				DB6E9D2B19260C7B002CA59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB6E9D2C19260C7B002CA59E /* Build configuration list for PBXNativeTarget "YHEmojiViewTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +511,7 @@
 				DB6E9D2E19260C7B002CA59E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
